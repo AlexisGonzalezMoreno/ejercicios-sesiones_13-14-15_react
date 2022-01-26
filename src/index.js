@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Añadimos boostrap a nuestro proyecto
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+//Importante, los estilos propios deben ir debajo del de bootstrap para que no los pise
+import './index.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
